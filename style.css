@@ -4,158 +4,148 @@ html {
 }
 
 body {
-    margin: 0 0 40px; /* bottom = footer height */
+    margin: 0 0 40px;
+    /* bottom = footer height */
     padding: 25px;
 }
 
-header {
-
-}
-
-header nav{
-	list-style-type: none;
-	padding: 0px;
+header nav {
+    list-style-type: none;
+    padding: 0px;
 }
 
 nav li {
-	display: block;
-	/* position: relative; */
-	float: left;
-	padding: 5px;
-	margin: 0px 10px;
+    display: block;
+    float: left;
+    padding: 5px;
+    margin: 0px 10px;
 }
 
 nav li a {
-	font-size: 12px;
-	font-family: sans-serif;
-	color: #000;
-	text-decoration: none;
-
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #666;
+    text-decoration: none;
 }
 
 #apps {
-	height: 15px;
-	width: 15px;
-	background-image: url('ics.png');
-	margin: 2px 10px 0px;
+    height: 15px;
+    width: 15px;
+    background-image: url(ics.png);
+    margin: 2px 10px 0px;
 }
 
 #nots {
-	height: 15px;
-	width: 15px;
-	background-image: url('nots.png');
-	margin: 2px 10px 0px;
+    height: 15px;
+    width: 15px;
+    background-image: url(nots.png);
+    margin: 2px 10px 0px;
 }
 
 #profile {
-	width: 25px;
-	height: 25px;
-	background-image: url('LL.png');
-	border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    background-image: url(LL.png);
+    border-radius: 25px;
 }
 
 #up {
-	float: right;
+    float: right;
 }
 
 .center {
-	height: 400px;
-	width: 550px;
-	margin: 200px auto;
+    height: 400px;
+    width: 550px;
+    margin: 200px auto;
 }
 
 .logo {
-	background-image: url(google.png);
-	margin: 0 auto;
-	width: 270px;
-	height: 90px;
+    position: relative;
+    background-image: url(google.png);
+    margin: 0 auto;
+    width: 270px;
+    height: 90px;
+}
+
+.pl {
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+    font-size: 17px;
+    color: #4285f4;
 }
 
 .search {
-
-	margin: 0 auto;
-	width: 550px;
+    margin: 0 auto;
+    width: 550px;
 }
 
 .click {
-	margin: 20px 0;
-	margin: 0 auto;
-	width: 270px;
+    margin: 20px 0;
+    margin: 0 auto;
+    width: 270px;
+}
+
+input[type=button] {
+    border: none;
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    height: 35px;
+    width: 530px;
+    margin: 30px auto;
 }
 
 .info {
-	margin: 20px auto;
-	width: 220px;
-	font-size: 15px;
+    margin: 20px auto;
+    width: 220px;
+    font-size: 15px;
 }
 
 .info p {
-	text-align: center;
+    text-align: center;
 }
-
-/* footer {
-	clear: both;
-	height: 40px;
-	background-color: #999;
-	color: #999;
-} */
 
 footer {
     background-color: #eaeaea;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 40px;
     width: 100%;
     overflow: hidden;
-    border-top: 0.5px;
-    border-style: solid;
-    border-color: #e5e5e5
+    border-top: 0.5px solid #e4e4e4;
 }
 
 footer ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	bottom: 0;
-}
-
-footer li a {
-	font-size: 14px;
-	font-family: sans-serif;
-	color: #666;
-	text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
 }
 
 footer li {
-	margin: 5px 20px 10px;
+    margin: 5px 20px 10px;
+}
+
+footer li a {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #666;
+    text-decoration: none;
 }
 
 .right li {
-	/*display: block;*/
-	/*position: relative;*/
-	float: right;
-	padding: 5px;
-	bottom: 0;
+    float: right;
+    padding: 5px;
+    bottom: 0;
 }
 
 .left li {
-	/*display: block;*/
-	/*position: relative;*/
-	float: left;
-	padding: 5px;
-}
-
-input[type=button]{
-	border: none;
-	width: 130px;
-	height: 35px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-input[type=text]{
-	height: 35px;
-	width: 530px;
-	margin: 30px auto;
+    float: left;
+    padding: 5px;
 }
