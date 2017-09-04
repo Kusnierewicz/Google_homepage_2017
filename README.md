@@ -1,7 +1,7 @@
-The Odin Project Assignment:
+# The Odin Project Assignment: "Build the Google.pl homepage (Easy Version)" 
 
-    Easy Version: Build the Google.com homepage
+The simple version with just a search box. No active links
 
-    (the simple one with just a search box).
+## You can find it here:
 
-    You can find it here: https://kusnierewicz.github.io/google_webpage_2017/
+* [My Google.pl clone](https://kusnierewicz.github.io/google_webpage_2017/)
